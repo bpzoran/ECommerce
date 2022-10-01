@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceDAOAbstractFactory\ECommerceDAOAbstractFactory.csproj" />
+    <ProjectReference Include="..\ECommerceDAOInMemory\ECommerceDAOInMemory.csproj" />
+    <ProjectReference Include="..\IECommerceBO\IECommerceBO.csproj" />
+    <ProjectReference Include="..\IECommerceDAO\IECommerceDAO.csproj" />
+    <ProjectReference Include="..\SupplierWebService\SupplierWebService.csproj" />
+  </ItemGroup>
+
+</Project>
